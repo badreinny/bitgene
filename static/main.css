@@ -1,0 +1,153 @@
+body {
+    background: white;
+}
+
+.custom-navbar {
+    background-color: #4F6D7A;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .navbar-text {
+  color: white !important;
+}
+
+.btn-login {
+  background-color: #C0D6DF;
+  color: #2C3E50;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  width: 80px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-login:hover {
+  background-color: #DBE9EE;
+}
+
+.btn-register {
+  background-color: #C0D6DF;
+  color: #2C3E50;
+  border: #C0D6DF;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  width: 80px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-register:hover {
+  background-color: #DBE9EE;
+}
+
+.alert-success {
+  background-color: #4F6D7A;
+  color: white;
+  border-color: #4F6D7A;
+}
+
+.alert-success .close {
+  color: #DBE9EE; 
+}
+
+.custom-flash {
+  max-width: 400px;  /* or whatever you prefer */
+  width: 90%;
+  margin: 1rem auto;
+  padding: 0.75rem 1rem;
+  font-size: 0.95rem;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  width: 80px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.btn-logout {
+  background-color: #4F6D7A;
+  color: white;
+}
+.btn-logout:hover {
+  background-color: #2C3E50;
+}
+
+.custom-alert {
+    background-color: #C0D6DF; 
+    color: #4F6D7A;            
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    font-weight: 400;
+}
+
+.modal-link {
+  color: #4F6D7A;
+  text-decoration: underline;
+  transition: color 0.2s ease-in-out;
+}
+
+.modal-link:hover {
+  color: #2C3E50;
+  text-decoration: none;
+}
+
+
+.titulo {
+  font-size: 5rem; 
+  font-weight: 500;
+  margin-bottom: 1rem;
+} 
+
+.text-normal {
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+
+.btn-custom-upload {
+  border: 2px solid #C0D6DF;     /* Your custom border color */
+  background-color: transparent; /* Transparent for outline style */
+  color: #4F6D7A;                /* Text color */
+  border-radius: 25px;
+  padding: 0.4rem 1rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-custom-upload:hover {
+  border: 2px solid #4F6D7A; 
+  background-color: #4F6D7A;
+  color: white;
+}
+
+.btn-custom-download {
+  border: 2px solid #C0D6DF;     /* Your custom border color */
+  background-color: transparent; /* Transparent for outline style */
+  color: #4F6D7A;                /* Text color */
+  border-radius: 25px;
+  padding: 0.1rem 0.5rem;
+  font-weight: 200;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-custom-download:hover {
+  border: 2px solid #4F6D7A; 
+  background-color: #4F6D7A;
+  color: white;
+}
+
+p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
